@@ -6,9 +6,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+   <h1>TEN EL VALOR DE PROBAR ALGO DIFERENTE</h1>
+   <main>
+<h2>COCÍNALO</h2>
+<form id="cifrador" autocomplete="off"> <!--que no se muestre historial de cosas que descargamos en los inputs-->
+<input id="input-original" spellcheck="false" placeholder="Qué necesitas?" type="text" name="text">
+<!--spellcheck false para que no aparezca líneas rojas bajo un texto mal escrito-->
+</form>
+<div id="resultado"></div>
+<div class="rango">
+<input id="rango" type="range" value="2" min="1" max="3" oninput="rango.nextElementSibling.value = rango.value">
+<output>3</output>
+</div>
+
+</main><br><br>
+
+<footer>creado por Anders_viv</footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

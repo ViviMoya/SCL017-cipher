@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+:root{ /*así podemos crear variables en css y asi usamos estas variables varias veces en el archivo*/
+    --color-terminal:#292b36;
+    --borde-redondo: 4px;
+}
+
+* { /*con asterísco daremos estilo a TODO el proyecto*/
+    font-family: 'Dosis', sans-serif; 
+    font-weight: bold;
+}
+body{
+    justify-content: center;
+    position:relative;
+    background-image: url(https://image.freepik.com/vector-gratis/patron-cocina-abstracto_1042-277.jpg);
+    color: lightcoral; 
+}
+input, button {
+    border: none;
+    outline: none;
+}
+main {
+    padding: 30px;
+    text-align: center;
+    box-shadow: 8px 8px 60px 3px rgb(0 0 0/75%); /*esto sig que en el eje de X y de Y se vera igual, luego que tan borrosa sera (blur-radius y cuanto abarcará (spread radius) y el color*/
+    background-color: rgba(243, 35, 250, 0.945);
+    border-radius: var(--borde-redondo);
+    
+}
+h1 {
+    margin:0;
+    text-align: center;
+    margin-top: 20%;
+    color:black;
+    font-size: 250%;
+    font-weight: 200; /*grosor*/
+}
+h2{
+    margin:0;
+    text-align: center;
+    color: lightcyan;
+    font-size: 250%;
+    font-weight: 6000; 
+}
+#input-original, #resultado {
+width: -webkit-fill-available;
+}
+#input-original {
+    margin: 10px 0 0;
+    padding: 10px;
+    color:white;
+    background-color:black;
+}
+#resultado{
+   height: 20px;
+    padding: 0 10px 10px;
+    color:green;
+    background-color:black;    
+}
