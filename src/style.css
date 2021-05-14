@@ -19,6 +19,10 @@ input, button {
     outline: none;
 }
 main {
+    width: 400px; /*ancho*/
+    position: relative;
+    margin-left: auto;
+    margin-right: auto; /*centramos*/
     padding: 30px;
     text-align: center;
     box-shadow: 8px 8px 60px 3px rgb(0 0 0/75%); /*esto sig que en el eje de X y de Y se vera igual, luego que tan borrosa sera (blur-radius y cuanto abarcará (spread radius) y el color*/
@@ -29,7 +33,7 @@ main {
 h1 {
     margin:0;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 15%;
     color:black;
     font-size: 250%;
     font-weight: 200; /*grosor*/
@@ -43,6 +47,8 @@ h2{
 }
 #input-original, #resultado {
 width: -webkit-fill-available;
+text-align: center;
+font-size: 150%;
 }
 #input-original {
     margin: 10px 0 0;
