@@ -4,7 +4,7 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Criterios de aceptación mínimos del proyecto](#3-criterios-de-aceptación-mínimos-del-proyecto)
+* [3. Prototipado y maquetación del proyecto](#3-Prototipado-y-Maquetación-del-proyecto)
 * [4. Criterios de aceptación adicionales](#4-criterios-de-aceptación-adicionales)
 * [5. Objetivos de aprendizaje](#5-objetivos-de-aprendizaje)
 * [6. Recomendaciones generales](#6-recomendaciones-generales)
@@ -15,58 +15,34 @@
 
 ## 1. Preámbulo
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
+En Chile, entre los años 2010 y 2020, la Red Chilena contra la violencia contabilizó 637 femicidios (63.7 anual) de los cuales el 83.80% fue  
+perpetrado por alguien que poseía un vínculo íntimo o íntimo-familiar con la víctima y en el 30% de los casos el victimario contaba con
+denuncias previas, incluso algunos tenían medidas cautelares –prohibición de acercamiento específicamente- (fuente: eldesconcierto.cl); y en lo
+que va del año 2021 -al 30 de abril- se registran 12 femicidios consumados y 43 femicidios frustrados (fuente: t13.cl). 
+Pero un caso llama especialmente la atención: a fines de enero de 2020 una mujer, Ivette Necul, domiciliada en Temuco  hace un llamado a 
+carabineros y simula pedir pizza ¿el objetivo? denunciar a su esposo por violencia intrafamiliar, por suerte la oficial que atendió la llamada 
+captó la situación y lograron detener al sujeto y atender a la mujer por las heridas que éste le propició. 
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
-
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
-un tipo de cifrado por sustitución, es decir que cada letra del texto original
-es reemplazada por otra que se encuentra un número fijo de posiciones
-(desplazamiento) más adelante en el mismo alfabeto.
-
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones en el alfabeto:
-
-* La letra A se cifra como D.
-* La palabra CASA se cifra como FDVD.
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-
-En la actualidad, todos los cifrados de sustitución simple se descifran con
-mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la
-comunicación por sí mismos, el cifrado César sí puede formar parte de sistemas
-más complejos de codificación, como el cifrado Vigenère, e incluso tiene
-aplicación en el sistema ROT13.
+Hoy, en el mundo, existen algunas aplicaciones para que las mujeres puedan pedir ayuda -aplicaciones como alertcops o escapp- y en Chile  
+existen varios números telefónicos disponibles con ese mismo propósito, tales como:
+•	133 Carabineros de Chile
+•	134 PDI
+•	149 Fono familia de carabineros
+•	1455 Orientación de violencia contra la mujer
+¿Qué problemas presentan dichas aplicaciones y números telefónicos? que pueden poner más agresivo al victimario ¿Qué hubiese pasado si el 
+esposo de Ivette Necul le hubiese quitado el celular y hubiese visto que en realidad llamaba al 133? la historia sería de seguro muy 
+diferente.  
+‘COCÍNALO’ pretende solucionar estas disyuntivas usando el cifrado césar.
 
 ## 2. Resumen del proyecto
 
-**¿Qué tengo que hacer exactamente?** En este proyecto crearás una aplicación
-_web_ que servirá para que tus usuarias puedan cifrar y descifrar un texto
-indicando un desplazamiento específico de caracteres (_offset_). Por ejemplo,
-cifrar **MICASA** con un desplazamiento de 3 caracteres de manera que el mensaje
-cifrado sería **PLFDVD**
+‘COCÍNALO’ es una aplicación web diseñada para que una mujer que sufre violencia -ya sea en su núcleo familiar, en su trabajo, colegio, etc-   
+pueda pedir ayuda de forma segura pues su mensaje será cifrado y, en caso de que quien la daña le quite el móvil, éste solo verá una aplicación
+de cocina con letras aparentemente sin sentido y un link que lo llevará a ver algunas recetas y otro link que lo llevará a equivalencias.
 
-La temática es libre. Piensa en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y piensa en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
-
-* Crear claves seguras.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
-
-El equipo de _coaches_ te dará un tiempo referencial para trabajar en este
-proyecto. También indicaciones sobre si trabajar individualmente o en dupla.
-Recuerda que cada quien aprende a un tirmo diferente, tiene más o menos tiempo
-adicional al _bootcamp_ disponible, experiencia previa distina, etc.
-
-## 3. Criterios de aceptación mínimos del proyecto
-Cuando hablemos de "criterios de aceptación", nos referimos a todo aquello que
-debe suceder con tu proyecto para que consideremos (tú y nosotras) que lo has
-"hecho" y que lo podemos "aceptar" como "mínimamente terminado".
+## 3. Prototipado y maquetación del proyecto
+proceso de Prototipado
+![prototipo-inicial](https://drive.google.com/file/d/1Rh1NGaYcnsVtDf1aWpAhxigPxI7fae4C/view?usp=sharing)
 
 ### 3.1 Alfabeto simplificado
 Considera solamente letras mayúsculas, sin ñ ni números u otros caracteres:
