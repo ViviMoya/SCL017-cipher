@@ -1,27 +1,38 @@
 <!DOCTYPE html>
-<html>
+  <html>
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+      <meta charset="UTF-8">
+      <title>cipher proyect</title>
+
+      <!--css-->
+      <link rel="stylesheet" href="style.css">
   </head>
   <body>
-   <h1>TEN EL VALOR DE PROBAR ALGO DIFERENTE</h1>
-   <main>
-<h2>COCÍNALO</h2>
-<form id="cifrador" autocomplete="off"> <!--que no se muestre historial de cosas que descargamos en los inputs-->
-<input id="input-original" spellcheck="false" placeholder="Qué necesitas?" type="text" name="text">
-<!--spellcheck false para que no aparezca líneas rojas bajo un texto mal escrito-->
-</form>
-<div id="resultado"></div>
-<div class="rango">
-<input id="rango" type="range" value="3" min="1" max="3" oninput="rango.nextElementSibling.value = rango.value">
-<output>3</output>
-</div>
 
-</main><br><br>
+    <h1>TEN EL VALOR DE PROBAR ALGO DIFERENTE</h1>
+    <main>
+ <h2>COCÍNALO</h2>
+  <form id="cifrador" autocomplete="off"></form> <!--no mostrará el historial de cosas que descargamos en los inputs-->
+  <textarea  name="decode" id="inputCipher"  placeholder="escribe aquí lo que necesitas..."></textarea>
+  
+  <!--<input id="inputCipher" spellcheck="false" placeholder="Qué necesitas?" type="text">
+ spellcheck false para que no aparezca líneas rojas bajo un texto mal escrito-->
+ <button type="submit"  id="cipherEncode">Cifrar</button>
+ <button type="submit"  id="cipherDecode">Descifrar</button>
 
+ <div class="rango">
+ <!--<input id="rango" type="range" value="3" min="1" max="3" oninput="this.nextElementSibling.value = this.value">-->
+ <!--oninput para que cuando l usuario modifique la barra 'rango' se setará el próximo elemento-->
+
+ <textarea name="encode" id="outputCipher" readonly></textarea>
+  <input type="number" id="offsetCipher" value= "3" min="1" max="100">
+  <label id="offsetLabel"><strong>número</strong></label>
+ </div>
+ </main><br><br>
+  
 <footer>creado por Anders_viv</footer>
-    <script src="index.js" type="module"></script>
+<script src="index.js"></script>
+<script src="cipher.js"></script>
+
   </body>
 </html>

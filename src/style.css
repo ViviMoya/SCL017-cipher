@@ -12,11 +12,13 @@ body{
     justify-content: center;
     position:relative;
     background-image: url(https://image.freepik.com/vector-gratis/patron-cocina-abstracto_1042-277.jpg);
-    color: lightcoral; 
+    color: rgb(161, 28, 139);
 }
 input, button {
     border: none;
     outline: none;
+    background-color: rgba(243, 35, 250, 0.945);
+    color:rgb(161, 28, 139);
 }
 main {
     width: 400px; /*ancho*/
@@ -45,18 +47,18 @@ h2{
     font-size: 250%;
     font-weight: 6000; 
 }
-#input-original, #resultado {
+#inputCipher, #outputCipher {
 width: -webkit-fill-available;
 text-align: center;
 font-size: 150%;
 }
-#input-original {
+#inputCipher {
     margin: 10px 0 0;
     padding: 10px;
     color:white;
     background-color:black;
 }
-#resultado{
+#outputCipher{
    height: 20px;
     padding: 0 10px 10px;
     color:green;
