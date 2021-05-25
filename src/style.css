@@ -34,6 +34,8 @@ main {
 }
 h1 {
     margin:0;
+    background-color: #fff;
+    opacity: 85%;
     text-align: center;
     margin-top: 15%;
     color:black;
@@ -63,4 +65,11 @@ font-size: 150%;
     padding: 0 10px 10px;
     color:green;
     background-color:black;    
+}
+.footer {
+background-color: #fff;
+opacity: 80%;
+bottom: 10px;
+position: fixed; 
+text-align: center;
 }

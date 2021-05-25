@@ -34,7 +34,7 @@ window.cipher = {
     }
     //minusculas
    else if (codeAscci>=97 && codeAscci<=122){
-         offsetEncode= (codeAscci-45-numberCipher)%26+97
+         offsetEncode= (codeAscci-45-numberCipher)%26+97;
           result2+=String.fromCharCode(offsetEncode);
     } 
     // espacio
