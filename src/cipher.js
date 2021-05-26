@@ -1,11 +1,11 @@
-window.cipher = {
+const cipher = {
     encode: (textCipher,numberCipher) => {
       let result1= "";
   for (let i = 0; i < textCipher.length; i++) {
     let codeAscci = textCipher.charCodeAt(i);
     let offsetEncode;
     //mayusculas
-    if (codeAscci>=65 && codeAscci<=90) {
+    if (codeAscci>=65 && codeAscci<=90) { 
       offsetEncode = (codeAscci-65+numberCipher)%26+65;
          result1+= String.fromCharCode(offsetEncode);
     }
@@ -45,4 +45,5 @@ window.cipher = {
     }
     return result2
   }
-  };
+  }
+export default cipher;

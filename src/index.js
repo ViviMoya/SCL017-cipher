@@ -1,3 +1,4 @@
+import cipher from "./cipher.js"
 //encode
 const btnCipherEncode = document.getElementById("cipherEncode")
 
