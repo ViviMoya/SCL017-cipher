@@ -11,7 +11,7 @@
     <h1>TEN EL VALOR DE PROBAR ALGO DIFERENTE</h1>
     <main>
  <h2>COCÍNALO</h2>
-  <form id="cifrador" autocomplete="off"></form> <!--no mostrará el historial de cosas que descargamos en los inputs-->
+  <form id="cifrador" autocomplete="off" spellcheck="false"></form> <!--no mostrará el historial de cosas que descargamos en los inputs-->
   <textarea  name="decode" id="inputCipher"  placeholder="escribe aquí lo que necesitas..."></textarea>
   
  <button type="submit"  id="cipherEncode">ir</button>
@@ -19,14 +19,16 @@
 
  <div class="rango">
  <textarea name="encode" id="outputCipher" readonly></textarea>
-  <input type="number" id="offsetCipher" value= "3" min="1" max="100">
+  <input type="number" id="offsetCipher" value= "33">
   <label id="offsetLabel"><strong>número</strong></label>
  </div>
  </main><br><br>
-<div id="caja-links">
- <a href="index2.html" target="_blank">RECETAS</a>
- <a href="index3.html" target="_blank">EQUIVALENCIAS</a>
-</div>
+
+ <section>
+<article class="caja1"> <a href="index2.html" target="_blank">RECETAS</a></article>
+<article class="caja2"> <a href="index3.html" target="_blank">EQUIVALENCIAS</a></article>
+</section>
+
 <br><br><br><br>
 <div class="footer">creado por Anders_viv</div><br>
 

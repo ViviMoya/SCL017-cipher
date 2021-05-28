@@ -61,18 +61,29 @@ font-size: 150%;
     background-color:black;
 }
 #outputCipher{
-   height: 20px;
     padding: 0 10px 10px;
     color:green;
     background-color:black;    
 }
 .footer {
 background-color: #fff;
-opacity: 80%;
+opacity: 90%;
 bottom: 10px;
 position: fixed; 
 text-align: center;
 }
-.caja-links {
-
+section { 
+color:#000;
+position: relative;
+align-items: stretch;
+text-align: center;
+justify-content:space-around;
+}
+.caja1, .caja2 {
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+}
+.caja1{
+    right: 150px;
 }
