@@ -40,17 +40,21 @@ A continuanción se muestran algunos prototipos en fase inicial y algunos errore
 
 MAQUETACIÓN:
 
-![maqueta 1](../master/src/imagenes/m1.jpg);
+![maqueta 1](../master/src/imagenes/m1.jpg)
 
 
-![maqueta 2](../master/src/imagenes/m2.jpg);
+![maqueta 2](../master/src/imagenes/m2.jpg)
 
 
 Ya hecha la maquetación, generamos un primer prototipo de baja fidelidad, con el objetivo de buscar feedback e iterar; se veía así:
 
-![maqueta 3](../master/src/imagenes/p1.jpg);
+![maqueta 3](../master/src/imagenes/p1.jpg)
 
-Luego de diversos feedback generamos un prototipo de baja fidelidad que muestra cómo quedaría finalmente el proyecto...
+Luego de diversos feedback generamos un prototipo final que muestra cómo quedaría finalmente el proyecto... en la página principal incorporamos botones de codificar y decodificar (a los que llamamos "ir" y "atrás" por lo explicado anteriormente) y quitamos el rango de número para escoger el offset pues, según los usuarios consultados, no era muy fácil de entender y, en vez de eso, agregamos la opción de escoger número de offset a voluntad y los links los pusimos uno junto al otro. En el caso de las páginas de los link resultaban entendibles para las personas consultadas y no se le hicieron mayores cambios respecto del prototipo inicial. 
+
+Imagen del prototipo final de la página principal de nuestra aplicación web:
+![prototipo-final](../master/src/imagenes/prototipo.jpg)
+
 
 
 </details>
