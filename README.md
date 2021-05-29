@@ -38,6 +38,8 @@ En las fases iniciales del proyecto se buscó mucha información respecto de la 
 A continuanción se muestran algunos prototipos en fase inicial y algunos errores cometidos en la fase de desarrollo:  
 
 MAQUETACIÓN:
-<img src="./1621287348376.jpg" >
+
+![maqueta 1] (../master/imagenes/m1.jpg)
+
 
 </details>
