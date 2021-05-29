@@ -4,6 +4,7 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Respecto a su diseño](#3-respescto-a-su-diseño)
 * [3. Prototipado y maquetación del proyecto](#3-Prototipado-y-Maquetación-del-proyecto)
 
 ***
@@ -25,16 +26,18 @@ Hoy, en el mundo, existen algunas aplicaciones para que las mujeres puedan pedir
 
 ## 2. Resumen del proyecto
 
-‘COCÍNALO’ es una aplicación web diseñada para que una mujer que sufre violencia -ya sea en su núcleo familiar, en su trabajo, colegio, etc- pueda pedir ayuda de forma segura pues su mensaje será cifrado y, en caso de que quien la daña le quite el móvil, éste solo verá una aplicación de cocina con letras aparentemente sin sentido y dos links, uno que lo llevará a ver algunas recetas y otro que lo llevará a una tabla de 
-equivalencias. Si bien la aplicación estará disponible para ser descargada en cualquier dispositivo móvil y la usuaria podrá seleccionar con quien enlazarla, cumplirá su total funcionalidad (la de cifrar un mensaje por ayuda y recibir dicha ayuda) cuando sea enlazada con las autoridades; por ello al momento de la primera denuncia por violencia se le dará a conocer a la víctima esta herramienta y se enlazará con la  
-central de carabineros de su localidad. 
+‘COCÍNALO’ es una aplicación web diseñada para que una mujer que sufre violencia -ya sea en su núcleo familiar, en su trabajo, colegio, etc- pueda pedir ayuda de forma segura pues su mensaje será cifrado y, en caso de que quien la daña le quite el móvil, éste solo verá una aplicación de cocina con letras aparentemente sin sentido y dos links, uno que lo llevará a ver algunas recetas y otro que lo llevará a una tabla de equivalencias. Si bien la aplicación estará disponible para ser descargada en cualquier dispositivo móvil y la usuaria podrá seleccionar con quien enlazarla, cumplirá su total funcionalidad (la de cifrar un mensaje por ayuda y recibir dicha ayuda) cuando sea enlazada con las autoridades; por ello al momento de la primera denuncia por violencia se le dará a conocer a la víctima esta herramienta y se enlazará con la central de carabineros de su localidad.  
+Debido al propósito anteriormente expuesto la aplicación inicialmente no contaría con una opción de descifrar el mensaje ni se vería el mensaje inicial una vez enviado; pero, para cumplir con los requisitos de aceptación del proyecto, se implementaron dos botones justo abajo del mensaje a codificar llamados "ir" y "atrás" cuyas funciones son cifrar y descifrar respectivamente, además de una opción llamada "número" donde se podrá elegir la cantidad de posiciones que se desplace cada letra del mensaje tanto en números positivos como números negativos; Cocínalo además aceptará espacios, por ende es capaz de cifrar no solo una palabra sino frases completas, apareciendo éstas con otro tono de letra (verde específicamente) a fin de facilitar la diferenciación de los mensajes.
 
+##3. RESPECTO A SU DISEÑO
+Cocínalo busca no llamar la atención de los varores (usualmente los victimarios en los casos de violencia) por ello su cifrador estará "oculto" aparentando ser una aplicación de cocina; Ésta será de colores catalogados usualmente de femeninos como el rosa y lila y tendrá dibujos de cocina  de fondo; Se implementarán además dos links, uno que llevará al usuario a 3 recetas de cocina y otro link que estará enlazado a una tabla de equivalencias de cocina para dar credibilidad a la propuesta.
 
-## 3. Prototipado y maquetación del proyecto
+## 4. Prototipado y maquetación del proyecto
 
-En proceso de ideación y Prototipado  
-ingresar feedback
+En las fases iniciales del proyecto se buscó mucha información respecto de la realidad del país en temas de violencia y se buscaron aplicaciones que ofrezcan ayuda (tanto chilenas como extranjeras) y se descubrió que, si bien exiten varias opciones, todas son bastante obvias al mostrar su propósito... cocínalo pretende mantener oculto su objetivo... 
+A continuanción se muestran algunos prototipos en fase inicial y algunos errores cometidos en la fase de desarrollo:  
 
-
+MAQUETACIÓN:
+<img src="./1621287348376.jpg" >
 
 </details>
