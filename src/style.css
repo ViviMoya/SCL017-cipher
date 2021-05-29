@@ -79,11 +79,19 @@ align-items: stretch;
 text-align: center;
 justify-content:space-around;
 }
-.caja1, .caja2 {
+a:link{
     text-decoration: none;
+}
+.caja1, .caja2 {
+    border: 2px rgb(150, 143, 143) solid;
+    background:rgb(150, 143, 143) ;
     text-align: center;
     position: absolute;
+    text-decoration: none;
 }
 .caja1{
-    right: 150px;
+    right: 52%;
+}
+.caja2{
+    right: 42%;
 }
