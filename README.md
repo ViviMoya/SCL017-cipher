@@ -39,7 +39,7 @@ A continuanción se muestran algunos prototipos en fase inicial y algunos errore
 
 MAQUETACIÓN:
 
-![maqueta 1](../master/imagenes/m1.jpg);
+![maqueta 1](../src/imagenes/m1.jpg);
 
 
 </details>
