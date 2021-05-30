@@ -4,8 +4,8 @@ const btnCipherEncode = document.getElementById("cipherEncode")
 
 btnCipherEncode.addEventListener("click", () => {
     let textCipher = document.getElementById("inputCipher").value;
-    let numberCipher = parseInt(document.getElementById("offsetCipher").value);
-
+    let numberCipher = parseInt(document.getElementById("offsetCipher").value); 
+//imprimir resultado
     document.getElementById("outputCipher").innerHTML = cipher.encode(textCipher,numberCipher);
 });
 
@@ -14,6 +14,6 @@ const btnCipherDecode = document.getElementById ("cipherDecode")
 btnCipherDecode.addEventListener("click", ()=> {
     let textCipher= document.getElementById("inputCipher").value;
     let numberCipher= parseInt(document.getElementById("offsetCipher").value);
-
+//imprimir resultado de decode
     document.getElementById("outputCipher").innerHTML = cipher.decode(textCipher, numberCipher);
 });

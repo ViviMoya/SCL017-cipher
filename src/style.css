@@ -25,15 +25,17 @@ main {
     position: relative;
     margin-left: auto;
     margin-right: auto; /*centramos*/
-    padding: 30px;
+    padding: 30px; /*relleno por todos lados*/
     text-align: center;
     box-shadow: 8px 8px 60px 3px rgb(0 0 0/75%); /*esto sig que en el eje de X y de Y se vera igual, luego que tan borrosa sera (blur-radius y cuanto abarcará (spread radius) y el color*/
     background-color: rgba(243, 35, 250, 0.945);
     border-radius: var(--borde-redondo);
     
 }
+/*agregaremos un fondo de color con cierta opacidad para que la letra resalte sin que se pierda el dibujo*/
 h1 {
     margin:0;
+    border-radius: var(--borde-redondo);
     background-color: #fff;
     opacity: 85%;
     text-align: center;
@@ -42,6 +44,7 @@ h1 {
     font-size: 250%;
     font-weight: 200; /*grosor*/
 }
+/*daremos forma al nombre de la app ubicado dentro de "main"*/
 h2{
     margin:0;
     text-align: center;
@@ -49,29 +52,31 @@ h2{
     font-size: 250%;
     font-weight: 6000; 
 }
+/*daremos formato a ambos input del main... el que ingresa la info y el que la regresa*/
 #inputCipher, #outputCipher {
 width: -webkit-fill-available;
+border-radius: var(--borde-redondo);
 text-align: center;
 font-size: 150%;
+background-color:black;
+padding: 0 10px 10px;
 }
+/*daremos colores diferentes a los input por ello los trataremos por separado*/
 #inputCipher {
-    margin: 10px 0 0;
-    padding: 10px;
-    color:white;
-    background-color:black;
+ color:white;   
 }
 #outputCipher{
-    padding: 0 10px 10px;
-    color:green;
-    background-color:black;    
+color:green;    
 }
 .footer {
 background-color: #fff;
 opacity: 90%;
-bottom: 10px;
-position: fixed; 
+bottom: 10px; /*espacio que tendrá tomado desde abajo*/
+position: fixed; /*no se perderá al hacer scroll*/
 text-align: center;
+border-radius: var(--borde-redondo);
 }
+/*daremos forma a la sección que agrupa los link*/
 section { 
 color:#000;
 position: relative;
@@ -79,14 +84,13 @@ align-items: stretch;
 text-align: center;
 justify-content:space-around;
 }
-a:link{
-    text-decoration: none;
-}
 .caja1, .caja2 {
-    border: 2px rgb(150, 143, 143) solid;
     background:rgb(150, 143, 143) ;
     text-align: center;
     position: absolute;
+    border-radius: var(--borde-redondo);
+}
+a:link{
     text-decoration: none;
 }
 .caja1{

@@ -8,14 +8,17 @@
 </head>
 <body>
 
+    <!--aunque no es la mejor práctica, modificaremos el estilo de este html desde aquí creando una etiqueta "style"-->
     <style>
+        /*importaremos un tipo de letra, le agregaremos grosor y pondremos un fondo de imagen desde internet*/
          @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
  body { 
            font-family:'Dosis', sans-serif; 
            font-weight: bold;
            background-image: url(https://image.freepik.com/vector-gratis/patron-cocina-abstracto_1042-277.jpg);
         }
- main {
+        /*alteraremos el contenido de nuestro "main"*/
+ main { 
     overflow: auto; /*recortar o no contenido*/
     width: 70rem; /*ancho*/
     position: relative;
@@ -80,6 +83,7 @@ Sal y nuez moscada rallada o en polvo (al gusto) <br>
     Servir calientes.</p>
              </main>
 
+             <!--creamos un link que nos devuelva a la página principal (no se creará una nueva pestaña)-->
 <button><a href="index.html">volver</a></button>
 
 </body>
