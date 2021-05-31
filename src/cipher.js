@@ -6,7 +6,7 @@ if (typeof textCipher !== "string" || typeof numberCipher !== "number"){
 }
 // creamos una variable que alojará nuestro resultado 
 let result1= "";
-// creamos un bucle para cifrar... tomando como base la cadena te texto ingresado por el usuario (textCipher) y la longitud de la misma
+// creamos un bucle para cifrar... generamos una variable de posicionamiento (i) y le indicamos que se detenga tomando como base la cadena de texto ingresado por el usuario (textCipher) y la longitud de la misma
 for (let i = 0; i < textCipher.length; i++) {
   const codeAscii = textCipher[i].charCodeAt(); //con charCodeAt devolvemos un número indicando el valor Unicode del carácter en el índice proporcionado.
 
