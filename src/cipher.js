@@ -6,12 +6,13 @@ if (typeof textCipher !== "string" || typeof numberCipher !== "number"){
 }
 // creamos una variable que alojará nuestro resultado 
 let result1= "";
-// creamos un bucle para cifrar
+// creamos un bucle para cifrar... tomando como base la cadena te texto ingresado por el usuario (textCipher) y la longitud de la misma
 for (let i = 0; i < textCipher.length; i++) {
-  const codeAscii = textCipher[i].charCodeAt();
+  const codeAscii = textCipher[i].charCodeAt(); //con charCodeAt devolvemos un número indicando el valor Unicode del carácter en el índice proporcionado.
+
 // crearemos un condición en donde ingresamos el rango de las letras (mayúsculas y minúsculas) del codigo ascii
   if ((codeAscii < 65 || codeAscii > 90) && (codeAscii < 97 || codeAscii > 122)) { 
-     result1+= String.fromCharCode(codeAscii);
+     result1+= String.fromCharCode(codeAscii); //el String.charCodeAt es un método estático que devuelve una cadena creada mediante el uso de una secuencia de valores Unicode especificada.
   }
   //para las mayúsculas
   if(codeAscii >= 65 && codeAscii <= 90){
@@ -33,6 +34,7 @@ for (let i = 0; i < textCipher.length; i++) {
         result1+=" ";
   } 
   }
+  //devolvemos el valor contenido en la variable result1
   return result1
   },
 
@@ -70,6 +72,7 @@ for (let i = 0; i < textCipher.length; i++) {
   }
    
   }
+    //devolvemos el valor contenido en la variable result2
   return result2
 }
 }
