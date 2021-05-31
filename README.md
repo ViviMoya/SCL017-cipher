@@ -4,7 +4,7 @@
 
 * [1. PREÁMBULO](#1-preámbulo)
 * [2. RESUMEN DEL PROYECTO](#2-resumen-del-proyecto)
-* [3. RESPECTO A SU DISEÑO](#3-respescto-a-su-diseño)
+* [3. RESPECTO A SU DISEÑO](#3-respecto-a-su-diseño)
 * [4. PROTOTIPADO Y MAQUETACIÓN DEL PROYECTO](#4-Prototipado-y-Maquetación-del-proyecto)
 * [5. LINK DEL PROYECTO](#5-link-del-proyecto)
 
