@@ -1,43 +1,51 @@
 <!DOCTYPE html>
-  <html>
-  <head>
-      <meta charset="UTF-8">
-      <title>cipher proyect</title>
+<html>
 
-      <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <title>cipher proyect</title>
 
-    <h1>TEN EL VALOR DE PROBAR ALGO DIFERENTE</h1> <br><br>
-    <main>
- <h2>COCÍNALO</h2>
- <!--creamos el area que recibirá el mensaje a codificar-->
-  <form id="cifrador" autocomplete="off" spellcheck="false"></form> <!--no mostrará el historial de cosas que descargamos en los inputs-->
-  <textarea  name="decode" id="inputCipher"  placeholder="escribe aquí lo que necesitas..."></textarea>
-  
-  <!--creamos 2 botones, uno para cifrar y otro para descifrar-->
- <button type="submit"  id="cipherEncode">ir</button>
- <button type="submit"  id="cipherDecode">atrás</button>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
- <!--creamos el área que entregará el mensaje ya cifrado y un input que solicitará el número de espacio en que queremos que cifre-->
- <div class="rango">
- <textarea name="encode" id="outputCipher" readonly></textarea>
-  <input type="number" id="offsetCipher" value= "3">
-  <label id="offsetLabel"><strong>número</strong></label>
- </div>
- </main><br><br>
+<body>
+  <h1>TEN EL VALOR DE PROBAR ALGO DIFERENTE</h1>
+  <br /><br />
+  <main>
+    <h2>COCÍNALO</h2>
+    <!--creamos el area que recibirá el mensaje a codificar-->
+    <form id="cifrador" autocomplete="off" spellcheck="false"></form>
+    <!--no mostrará el historial de cosas que descargamos en los inputs-->
+    <textarea name="decode" id="inputCipher" placeholder="escribe aquí lo que necesitas..."></textarea>
+    <br>
+    <!--creamos 2 botones, uno para cifrar y otro para descifrar-->
+    <button type="submit" id="cipherEncode">ir</button>
+    <button type="submit" id="cipherDecode">atrás</button>
 
- <!--creamos 2 links, uno para recetas y otro para equivalencias, se abrirán en otra pestaña-->
- <section>
-<article class="caja1"> <a href="index2.html" target="_blank">RECETAS</a></article>
-<article class="caja2"> <a href="index3.html" target="_blank">EQUIVALENCIAS</a></article>
-</section>
+    <!--creamos el área que entregará el mensaje ya cifrado y un input que solicitará el número de espacio en que queremos que cifre-->
+    <div class="rango">
+      <textarea name="encode" id="outputCipher" readonly></textarea>
+      <input type="number" id="offsetCipher" value="3" />
+      <label id="offsetLabel"><strong>número</strong></label>
+    </div>
+  </main>
+  <br /><br />
 
-<br><br><br><br>
-<div class="footer">creado por Anders_viv</div><br>
+  <!--creamos 2 links, uno para recetas y otro para equivalencias, se abrirán en otra pestaña-->
+  <section>
+    <button class="caja1">
+      <a href="index2.html" target="_blank">RECETAS</a>
+    </button>
+    <button class="caja2">
+      <a href="index3.html" target="_blank">EQUIVALENCIAS</a>
+    </button>
+  </section>
 
-<script type="module" src="index.js" ></script>
+  <br /><br /><br /><br />
+  <div class="footer">creado por Anders_viv</div>
+  <br />
 
+  <script type="module" src="index.js"></script>
+</body>
 
-  </body>
 </html>

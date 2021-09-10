@@ -1,101 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
-:root{ /*así podemos crear variables en css y asi usamos estas variables varias veces en el archivo*/
-    --color-terminal:#292b36;
-    --borde-redondo: 4px;
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+:root {
+  /*así podemos crear variables en css y asi usamos estas variables varias veces en el archivo*/
+  --color-terminal: #292b36;
+  --borde-redondo: 9px;
 }
 
-* { /*con asterísco daremos estilo a TODO el proyecto*/
-    font-family: 'Dosis', sans-serif; 
-    font-weight: bold;
+* {
+  /*con asterísco daremos estilo a TODO el proyecto*/
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
 }
-body{
-    justify-content: center;
-    position:relative;
-    background-image: url(https://image.freepik.com/vector-gratis/patron-cocina-abstracto_1042-277.jpg);
-    color: rgb(161, 28, 139);
+body {
+  justify-content: center;
+  position: relative;
+  background-image: url(https://image.freepik.com/vector-gratis/patron-cocina-abstracto_1042-277.jpg);
+  color: rgb(161, 28, 139);
 }
-input, button {
-    border: none;
-    outline: none;
-    background-color: rgba(243, 35, 250, 0.945);
-    color:rgb(161, 28, 139);
+input,
+button {
+  border: none;
+  outline: none;
+  background-color: rgba(243, 35, 250, 0.945);
+  color: rgb(161, 28, 139);
 }
 main {
-    width: 400px; /*ancho*/
-    position: relative;
-    margin-left: auto;
-    margin-right: auto; /*centramos*/
-    padding: 30px; /*relleno por todos lados*/
-    text-align: center;
-    box-shadow: 8px 8px 60px 3px rgb(0 0 0/75%); /*esto sig que en el eje de X y de Y se vera igual, luego que tan borrosa sera (blur-radius y cuanto abarcará (spread radius) y el color*/
-    background-color: rgba(243, 35, 250, 0.945);
-    border-radius: var(--borde-redondo);
-    
+  width: 400px; /*ancho*/
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; /*centramos*/
+  padding: 30px; /*relleno por todos lados*/
+  text-align: center;
+  box-shadow: 8px 8px 60px 3px rgb(0 0 0/75%); /*esto sig que en el eje de X y de Y se vera igual, luego que tan borrosa sera (blur-radius y cuanto abarcará (spread radius) y el color*/
+  background-color: rgba(243, 35, 250, 0.945);
+  border-radius: var(--borde-redondo);
 }
 /*agregaremos un fondo de color con cierta opacidad para que la letra resalte sin que se pierda el dibujo*/
 h1 {
-    margin:0;
-    border-radius: var(--borde-redondo);
-    background-color: #fff;
-    opacity: 85%;
-    text-align: center;
-    margin-top: 15%;
-    color:black;
-    font-size: 250%;
-    font-weight: 200; /*grosor*/
+  margin: 0;
+  border-radius: var(--borde-redondo);
+  background-color: #fff;
+  opacity: 85%;
+  text-align: center;
+  margin-top: 15%;
+  color: black;
+  font-size: 250%;
+  font-weight: 200; /*grosor*/
 }
 /*daremos forma al nombre de la app ubicado dentro de "main"*/
-h2{
-    margin:0;
-    text-align: center;
-    color: lightcyan;
-    font-size: 250%;
-    font-weight: 6000; 
+h2 {
+  margin: 0;
+  text-align: center;
+  color: lightcyan;
+  font-size: 250%;
+  font-weight: 6000;
 }
 /*daremos formato a ambos input del main... el que ingresa la info y el que la regresa*/
-#inputCipher, #outputCipher {
-width: -webkit-fill-available;
-border-radius: var(--borde-redondo);
-text-align: center;
-font-size: 150%;
-background-color:black;
-padding: 0 10px 10px;
+#inputCipher,
+#outputCipher {
+  width: -webkit-fill-available;
+  border-radius: var(--borde-redondo);
+  text-align: center;
+  font-size: 150%;
+  background-color: black;
+  padding: 0 10px 10px;
 }
 /*daremos colores diferentes a los input por ello los trataremos por separado*/
 #inputCipher {
- color:white;   
+  color: white;
 }
-#outputCipher{
-color:green;    
+#outputCipher {
+  color: green;
 }
 .footer {
-background-color: #fff;
-opacity: 90%;
-bottom: 10px; /*espacio que tendrá tomado desde abajo*/
-position: fixed; /*no se perderá al hacer scroll*/
-text-align: center;
-border-radius: var(--borde-redondo);
+  background-color: #fff;
+  opacity: 90%;
+  bottom: 10px; /*espacio que tendrá tomado desde abajo*/
+  position: fixed; /*no se perderá al hacer scroll*/
+  text-align: center;
+  border-radius: var(--borde-redondo);
 }
 /*daremos forma a la sección que agrupa los link*/
-section { 
-color:#000;
-position: relative;
-align-items: stretch;
-text-align: center;
-justify-content:space-around;
+section{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+
 }
-.caja1, .caja2 {
-    background:rgb(150, 143, 143) ;
-    text-align: center;
-    position: absolute;
-    border-radius: var(--borde-redondo);
-}
-a:link{
-    text-decoration: none;
-}
-.caja1{
-    right: 52%;
-}
+.caja1,
 .caja2{
-    right: 42%;
+ background-color: rgb(246, 184, 252);
+  text-align: center;
+  position: absolute;
+  opacity: 90%;
+  border-radius: var(--borde-redondo);
+  margin-bottom: 1rem;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 100px;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  cursor: pointer;
+  padding: 10px 0 10px 30px;
+  width: 300px;
+  max-width: 350px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  line-height: 1.2;
+  font-size: 16px;                                                                                              
+  font-size: 20px;
+  font-style: bold;
+  border: none;
+}
+a:link {
+  font-size: 100%;
+  text-decoration: none;
+}
+.caja1 {
+  right: 56%;
+}
+.caja2 {
+  right: 22%;
 }
