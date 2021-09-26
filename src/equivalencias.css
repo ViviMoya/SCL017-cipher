@@ -1,0 +1,20 @@
+body {
+  background-image: url(https://millaromas.files.wordpress.com/2020/04/equivalencias-1.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: center;
+  background-color: rgba(236, 218, 203, 0.459);
+}
+.back {
+  border-radius: 20px;
+  position: relative;
+  padding: 1em;
+  font-size: 150%;
+  margin-left: 45%;
+  background-color: rgb(233, 157, 220);
+  color: #ffffff;
+  margin-left: 2%;
+}
+a:link {
+  text-decoration: none;
+}

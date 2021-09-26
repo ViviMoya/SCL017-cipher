@@ -1,0 +1,36 @@
+/*importaremos un tipo de letra, le agregaremos grosor y pondremos un fondo de imagen desde internet*/
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  background-image: url(https://image.freepik.com/vector-gratis/patron-cocina-abstracto_1042-277.jpg);
+}
+
+main {
+  position: relative;
+  justify-content: center;
+  overflow: auto; /*recortar o no contenido*/
+  width: 80%; /*ancho*/
+  box-shadow: 8px 8px 60px 3px rgb(0 0 0/75%); /*esto sig que en el eje de X y de Y se vera igual, luego que tan borrosa sera (blur-radius y cuanto abarcará (spread radius) y el color*/
+  background-color: #fff;
+  opacity: 80%;
+  margin: 5% 10%;
+  padding: 2em;
+}
+h1,
+h3 {
+  border: 1px;
+}
+.back {
+  margin: 1rem;
+  border-radius: 20px;
+  position: relative;
+  padding: 1em;
+  font-size: 150%;
+  margin-left: 45%;
+  background-color: rgb(233, 157, 220);
+  color: #ffffff;
+}
+a:link {
+  text-decoration: none;
+}

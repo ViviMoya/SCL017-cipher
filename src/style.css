@@ -22,7 +22,7 @@ button {
   font-size: 1.5em;
 }
 main {
-  width: 400px; /*ancho*/
+  width: 40%; /*ancho*/
   position: relative;
   margin-left: auto;
   margin-right: auto; /*centramos*/
@@ -39,7 +39,7 @@ h1 {
   background-color: #fff;
   opacity: 85%;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 6%;
   color: black;
   font-size: 250%;
   font-weight: 200; /*grosor*/
@@ -59,6 +59,7 @@ h2 {
   font-size: 150%;
   background-color: black;
   padding: 0 10px 10px;
+  width: 80%;
 }
 /*daremos colores diferentes a los input por ello los trataremos por separado*/
 #inputCipher {
@@ -76,10 +77,11 @@ h2 {
   border-radius: var(--borde-redondo);
 }
 /*daremos forma a la sección que agrupa los link*/
-section {
+.constainer-link {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   width: 30%;
 }
 
@@ -88,8 +90,7 @@ section {
   background-color: rgb(246, 184, 252);
   display: flex;
   opacity: 90%;
-  text-align: center;
-  border-radius: 100px;
+  border-radius: 70px;
   text-shadow: 0 1px 3px rgb(0 0 0 / 20%);
   cursor: pointer;
   padding: 10px 0 10px 30px;
@@ -99,19 +100,23 @@ section {
   line-height: 1.2;
   font-size: 1.5rem;
   border: none;
-  margin-left: 180%;
+  margin-top: 1em;
+  margin-left: 36%;
+
 }
 a:link {
   font-size: 100%;
   text-decoration: none;
+ 
 }
-
-@media (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 780px) {
   main {
-    width: 17em; /*ancho*/
+    width: 50%; /*ancho*/
   }
   h1 {
     font-size: 2em;
+  }
+  h2 {
   }
   section {
     display: flex;
@@ -125,5 +130,40 @@ a:link {
     margin-left: 10em;
     width: 13em;
     align-content: center;
+    margin-left: 17%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  h1 {
+    font-size: 150%;
+  
+  }
+  h2{
+    font-size: 160%;
+    margin-bottom: 3px;
+  }
+  #inputCipher,
+#outputCipher {
+ 
+  font-size: 80%;
+  background-color: black;
+  padding: 0 10px 10px;
+  width: 80%;
+}
+#offsetCipher{
+  width: 10%;
+}
+  main {
+    width: 50%;
+  }
+  .caja1,
+  .caja2 {
+    width: 60%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-size: 1rem;
+    margin-top: 0.3em;
+    margin-left: 17%;
   }
 }
