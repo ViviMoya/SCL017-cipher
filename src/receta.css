@@ -34,27 +34,28 @@ h3 {
 a:link {
   text-decoration: none;
 }
-@media only screen and (min-width: 1025px) {}
-main{
-  font-size: 180%;
+@media only screen and (min-width: 1025px) {
+}
+main {
+  font-size: 150%;
 }
 
 @media only screen and (min-width: 426px) and (max-width: 780px) {
-main{
-font-size:150%;
-width: 68%;
-}
-.back {
-  margin-left: 25%;
-}
+  main {
+    font-size: 150%;
+    width: 68%;
+  }
+  .back {
+    margin-left: 25%;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-  main{
+  main {
     width: 60%;
+    font-size: 120%;
   }
   .back {
     margin-left: 11%;
   }
-
 }
