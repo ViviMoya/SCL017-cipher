@@ -1,7 +1,6 @@
 body {
   background-image: url(https://millaromas.files.wordpress.com/2020/04/equivalencias-1.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
   background-position-x: center;
   background-color: rgba(236, 218, 203, 0.459);
 }
@@ -17,4 +16,13 @@ body {
 }
 a:link {
   text-decoration: none;
+}
+@media only screen and (max-width: 425px) {
+
+body{  
+  background-size: 90%;
+}
+.back {
+padding: .5em;
+}
 }
