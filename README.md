@@ -62,7 +62,7 @@ Imagen del prototipo final de la página principal de nuestra aplicación web:
 
  Puedes revisar el proyecto publicado en github pages en el siguiente enlace: 
  
- [COCÍNALO](https://vivimoya.github.io/SCL017-cipher/)
+ [COCÍNALO](https://vivimoya.github.io/SCL017-cipher/src)
 
 
 </details>
